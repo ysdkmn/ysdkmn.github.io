@@ -45,10 +45,10 @@ flex-grow:1;
 .name {
   flex-grow: 1;
   padding-left: 40px;
+  padding-top: 25px;
   font-family: georgia;
   font-weight: bold;
   font-size: 26px;
-  padding-top: 25px;
   color: rgb(92, 92, 92);
 }
 
@@ -60,7 +60,7 @@ flex-grow:1;
 }
 
 .headnav span {
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 header img {
