@@ -84,13 +84,24 @@ div.leftmargin {
 
 .subtitle {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
   width: 300px;
   color: rgb(92, 92, 92);
   font-family: georgia;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 26px;
+}
+
+.subtop {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 165px;
+  margin-bottom: 30px;
+}
+
+.subanchor {
+  height: 105px;
 }
 
 .subcontent {
@@ -102,19 +113,19 @@ div.leftmargin {
   padding: 20px 40px;
 }
 
-#about {
+.about {
   background-color: rgb(78, 189, 169);
 }
 
-#projects {
+.projects {
   background-color: rgb(68, 189, 129);
 }
 
-#resume {
+.resume {
   background-color: rgb(58, 189, 89);
 }
 
-#contact {
+.contact {
   background-color: rgb(48, 189, 49);
 }
 
