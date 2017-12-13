@@ -67,12 +67,15 @@ div.leftmargin {
   width: 40px;
 }
 
+.headerspace {
+height: 115px;
+}
 /* content */
 
 .maincontainer {
   display: flex;
   flex-direction: column;
-  padding: 180px 40px 60px 40px;
+  padding: 60px 40px;
 }
 
 .container {
@@ -97,11 +100,10 @@ div.leftmargin {
   justify-content: center;
   align-items: flex-end;
   height: 165px;
-  margin-bottom: 30px;
 }
 
 .subanchor {
-  height: 105px;
+  height: 135px;
 }
 
 .subcontent {
